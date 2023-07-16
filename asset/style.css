@@ -1,0 +1,352 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Nunito Sans;
+}
+/* header */
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.L__text {
+  color: #54b963;
+  display: inline;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+}
+
+ul li .pd:hover {
+  background: #a5a5a5;
+  color: #54b963;
+  cursor: pointer;
+}
+
+.search {
+  display: inline-block;
+  position: relative;
+}
+
+.search input[type="text"] {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.search button[type="submit"] {
+  background-color: #54b963;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.9s ease;
+}
+
+.search button[type="submit"]:hover {
+  transform: scale(1.1);
+  color: #ccc;
+  background-color: #19211e;
+}
+
+/* slider */
+.slider {
+  position: relative;
+  padding-bottom: 56, 25%;
+}
+.video-container {
+  overflow: hidden;
+}
+.video-container video {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.video-brightness {
+  filter: brightness(0.5);
+}
+
+.slider__text {
+  position: absolute;
+  top: 50%;
+  left: 26.5%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+  font-size: 38px;
+  text-align: left;
+}
+.slider__text-itemq1 {
+  font-size: 74px;
+  color: #fff;
+}
+.slider__text-item2 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-family: system-ui;
+}
+.slider__text-btn {
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  background-color: #54b963;
+  padding: 10px 36px;
+  border-radius: 30px;
+  margin-top: 32px;
+  transition: all ease-in-out 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+.slider__text-btn:hover {
+  background: none;
+  border: 1px solid #54b963;
+  color: #54b963;
+}
+
+/* <!-- Save Time and Money --> */
+ul .fs {
+  margin-top: 25px;
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.fs1 {
+  color: #aaaa9c;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.mg {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.hv {
+  box-shadow: 0 1rem 3rem rgb(10 14 13);
+}
+/* .hv {
+  transition: transform ease-in 0.2s;
+  will-change: transform;
+} */
+.hv:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+/* -------------------- */
+/* <!-- We are passionate about Laundry --> */
+.img__tt {
+  position: relative;
+  cursor: pointer;
+}
+
+.img__tt1 {
+  transition: transform 0.6s ease;
+  padding-left: 66px;
+}
+
+.img__tt2 {
+  position: absolute;
+  top: 52px;
+  left: 226px;
+  transition: transform ease 0.6s;
+  will-change: transform;
+}
+
+.img__tt:hover .img__tt1 {
+  transform: translateY(76px);
+}
+
+.img__tt:hover .img__tt2 {
+  transform: translateY(-70px);
+}
+.tt {
+  border-radius: 36px;
+  border: 8px solid #ccc;
+}
+/* -------------------- */
+
+.content__text-list {
+  padding-left: 48px;
+  padding-right: 12px;
+}
+.content__text-item {
+  color: #54b963;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21.6px;
+  margin: 0px 0px 16px;
+}
+.content__text-item1 {
+  color: #ffffff;
+  font-family: Nunito Sans;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.content__text-item2 {
+  color: #b7b7b7;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 24px 0px 0px;
+}
+
+.content__icon-list .content__icon1 {
+  list-style-type: none;
+  color: #fff;
+  color: #ffffff;
+  display: list-item;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 14px 0px 0px;
+  text-align: left;
+}
+
+.content__icon-list {
+  margin-top: 20px;
+}
+.content__icon1 {
+}
+.fas {
+  color: #54b963;
+}
+
+/* <!-- What We Offer --> */
+.car__list {
+}
+.text-center {
+}
+.content__what {
+  color: #54b963;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  margin: 0px 0px 16px;
+  text-align: center;
+}
+
+.content__what-text {
+  color: #ffffff;
+  font-family: Nunito Sans;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+.img__what-img {
+  width: 100%;
+}
+
+.slider__text-btnn {
+  border: none;
+  color: #54b963;
+}
+
+.slider__text-btnn:hover {
+  color: #54b963;
+}
+
+/* <!-- News & Articles --> */
+ul .fss {
+  margin-top: 25px;
+  display: block;
+  color: #aaaa9c;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 32px;
+}
+.fs11 {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+/* <!--  Quality Service with Free Collection & Delivery--> */
+.container {
+}
+.text-center {
+}
+.row {
+}
+.col-sm-8 {
+}
+.content__quality {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-top: 14px;
+}
+
+.content__quanlity1 {
+  color: #fff;
+  font-family: Nunito Sans;
+  margin-left: 80px;
+  margin-top: 40px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.bg {
+  height: 248px;
+  background-color: #54b963;
+  position: relative;
+}
+
+.ps1 {
+  position: absolute; /* Đặt vị trí tuyệt đối cho nội dung chữ */
+  top: 50%; /* Đặt top là 50% của phần tử cha */
+  left: 50%; /* Đặt left là 50% của phần tử cha */
+  transform: translate(
+    -50%,
+    -50%
+  ); /*lùi lại 50% của chiều rộng và chiều cao của nó */
+  text-align: center; /* Căn giữa nội dung chữ theo chiều ngang */
+  vertical-align: middle; /* Căn giữa nội dung chữ theo chiều dọc */
+  font-size: 36px;
+}
+
+.slider__text-btnn {
+  border: none;
+  color: #000;
+  font-size: 20px;
+  background-color: #fff;
+  padding: 10px 36px;
+  border-radius: 30px;
+  margin-left: 13px;
+  transition: all ease-in-out 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.slider__text-btnn:hover {
+  color: #fff;
+  background-color: #000;
+}
